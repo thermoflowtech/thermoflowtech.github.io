@@ -1,5 +1,6 @@
 :root{
-  --bg:#0b0f14;
+  --bg:#121821;
+  --accent:#2f7dd1;
   --panel:#0f1620;
   --text:#e8edf2;
   --muted:#aab6c3;
@@ -50,6 +51,9 @@ header{
 .brand .name{font-weight:650; letter-spacing:.2px}
 .brand .sub{font-size:.92rem; color:var(--muted)}
 nav{display:flex; gap:14px; flex-wrap:wrap; justify-content:flex-end}
+.brand .name{ font-size:1.15rem; }
+.brand .sub{ font-size:1rem; }
+nav a{ font-size:1rem; padding:9px 12px; border-radius:12px; }
 nav a{
   padding:8px 10px;
   border-radius:10px;
