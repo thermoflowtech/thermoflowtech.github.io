@@ -33,7 +33,19 @@ header{
 }
 .navwrap{max-width:var(--max); margin:0 auto; padding:14px 18px; display:flex; align-items:center; gap:14px; justify-content:space-between}
 .brand{
-  display:flex; flex-direction:column; gap:2px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brandtext{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+}
+.logo{
+  width:38px;
+  height:38px;
+  display:block;
 }
 .brand .name{font-weight:650; letter-spacing:.2px}
 .brand .sub{font-size:.92rem; color:var(--muted)}
